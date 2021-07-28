@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Alegreya', serif;
+}
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+/* start of home */
+.home {
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    height: 100%;
+    padding: 1px;
+    position: relative;
+}
+/* start of navbar */
+.navbar{
+    margin: 20px 30px; 
+    /* height: 100px; */
+    width: 95%;
+    /* position: fixed; */
+    /* background-color: rgba(100, 89, 150, 0.4); */
+    /* z-index: 999; */
+  
+}
+.navimg img {
+    float: left;
+    width: 200px;
+}
+
+.nav-anchors li {
+    float: right;
+    margin: 20px 30;
+    color: white;
+}
+.nav-anchors ul {
+    list-style-type: none;
+}
+/* End of navbar */
+/* start of caption */
+.caption {
+    /* text-align: center; */
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+
+}
+.caption h1 {
+    font-size: 60px;
+    text-align: center;
+}
+.caption .bt {
+    padding: 15px 25px;
+    margin: 30px 3px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 4px;
+}
+.caption .bt2 {
+    border: #fff solid 2px;
+}
+.caption .bt1 {
+    background-color: #8e7754;
+}
+.caption p {
+ 
+    color: white;
+    text-align: center;
+}
+/* end of caption */
+.home .home-icon {
+    position: fixed;
+    right: 0%;
+    top: 30%;
+}
+.home .home-icon2 {
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+}
+/* End of home */
+@media screen and (max-width:580px){
+    .home .navbar {
+        width: 100%;
+    }
+    .home .caption {
+        width: 100%;
+    }
+}
+
+
+/* stat of About us */
+
+.About-us{
+   background-color:#FFFFFF; 
+   margin: 30px 20px;
+}
+.About-us-img {
+    float: left;
+    width: 45%;
+}
+.whom{
+    float: right;
+    width: 45%;
+}
+.About-us-img img {
+    width: 100%;
+}
+.whom h3{
+    font-size: 35px;
+    margin: 40px 0px ;
+}
+.whom span {
+    padding: 10px 5px;
+}
+.whom img{
+    margin-top: 10px;
+}
+@media screen and (max-width:580px){
+    .About-us .About-us-img {
+        width: 100%;
+    }
+    .About-us.whom {
+        width: 100%;
+    }
+}
+
+/* End of about us */
+/* stat of our location */
+.our-location{
+    background-color: #F8F8F8;
+    padding: 50px 15px;
+   
+}
+.Our-location-content {
+    float: left;
+    width: 45%;
+}
+.Our-location-content p{
+    padding-right: 20px;
+    font-size: 17px;
+}
+.Our-location-content h3{
+    padding-top: 40px;
+    padding-bottom: 15px;
+    font-size: 35px;
+}
+.Our-location-img {
+    float: right;
+    width : 45%;
+}
+.Our-location-img img {
+    width: 100%;
+}
+
+@media screen and (max-width:580px){
+    .Our-location .Our-location-content {
+        width: 100%;
+    }
+    .Our-location.Our-location-img {
+        width: 100%;
+    }
+    
+}
+/* End of our location */
+/* stat of our backing */
+.ourbaking {
+    text-align: center;
+    padding: 20px 0px;
+}
+p{
+    color: #888;
+    margin: 15px 0px;
+}
+
+.ourbaking h3 {
+    font-size: 22px;
+}
+.ourbaking p {
+    padding-bottom: 40px;
+}
+.items{  
+    width: 33.3333%;
+    float: left;
+}
+.items p {
+    padding: 10px 25px;
+}
+.items img{
+    width: 92%;
+}
+.clr{
+    clear: both;
+}
+
+
+/* End of our backing */
+
+/* start of Contact-information */
+
+.Contact-information{
+    background-color: #F8F8F8;
+    padding: 40px 0px;
+}
+.Contact-information-content{
+    
+    float: left;
+    width: 45%;
+}
+.Contact-information-map {  
+    float: left;
+    width: 50%;
+}
+.Contact-information-content {
+    padding: 20px 20px;
+}
+.Contact-information-content h3{
+    font-size: 35px;
+}
+
+/* End of Contact-information */
+/* start of details */
+
+.Details{
+    background-color: #403D38;
+    padding: 30px 20px;
+    background-image: url(images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.Details span {
+    color: #888;
+    padding-left: 5px;
+    padding-bottom: 20px;
+}
+.Details hr{
+    width: 288px;
+    border-bottom: 1px solid rgba(228, 51, 51, 0.05);
+  
+}
+.Details h3 {
+    color: white;
+    font-size: 17px;
+    padding: 20px 10px;
+}
+.Details-about {
+    width: 25%;
+    float: left;
+}
+.Details-why {
+    width: 25%;
+    float: left;
+}
+.Details-hours {
+
+    width: 25%;
+    float: left;
+}
+.Details-cont {
+
+    width: 25%;
+    float: left;
+}
+
+/* End of details */
+/* start of Backery */
+.Backery{
+    background-color: #353330;
+    text-align: center;
+    padding: 20px 10px;
+}
+/* End  of Backery */
